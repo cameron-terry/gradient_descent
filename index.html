@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Descent demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="draw.js"></script>
+  </head>
+  <body>
+    <div class="controls">
+      <div class="slider_div">
+        <div>number of iterations</div>
+        <div class="stuff">
+          <div>
+            <input
+              type="range"
+              min="1"
+              max="1000"
+              value="75"
+              class="slider"
+              id="myNRange"
+            />
+          </div>
+          <div>
+            <span id="n_value">75</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider_div">
+        <div>% sample points / iteration</div>
+        <div class="stuff">
+          <div>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="75"
+              class="slider"
+              id="myPointsSampledRange"
+            />
+          </div>
+          <div>
+            <span id="p_value">75</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider_div">
+        <div>weight</div>
+        <div class="stuff">
+          <div>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myWRange"
+            />
+          </div>
+          <div>
+            <span id="w_value">75</span>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </body>
+</html>
